@@ -1,1 +1,8 @@
-# functions-project
+# Functions Project
+
+Проект включает 3 задачи:
+*Quadratic Equasion
+*Quick Sort
+*Hashtable
+***
+Выполнять его лучше именно в таком порядке. Каждая задача находится в своей папке. В них же и условие с описанием.
