@@ -1,7 +1,7 @@
 # Functions Project
 
 Проект включает 3 задачи:
-* Quadratic Equasion
+* Quadratic Equation
 * Quick Sort
 * Hashtable
 

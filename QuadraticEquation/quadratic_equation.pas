@@ -1,4 +1,4 @@
-program QuadraticEquasion;
+program QuadraticEquation;
 
 uses crt;
 
