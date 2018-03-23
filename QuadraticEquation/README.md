@@ -3,23 +3,23 @@
 Задание состоит из двух частей. Требуется сначала написать реализацию функции
 
 ```pascal
-function qe_solve(a, b, c : integer; var ans : ans_t) : boolean;
+function qe_solve(a, b, c: integer; var ans: ans_t): boolean;
 ```
 которая решает квадратное уравнение с целыми коэффициентами `a`, `b`, `c`. Переменная `ans` представляет из себя массив из трех элементов, который сначала хранит количество корней уравнения, затем сами эти корни в порядке возрастания. Если имеется всего один корень уравнения, то он должен хранится в массиве сразу же за первым элементом. Функция должна возвращать `true`, если уравнение имеет решения, и `false` в противном случае. В случае бесконечного множества решений функция должна писать в `ans` нулевой массив и возвращать `true`.
 
-### Quadratic Equation Test
----
+## Quadratic Equation Test
+
 Во второй части задания следует реализовать свою систему тестирования функции `qe_solve`. Все функции и процедуры должны быть инкапсулированны в функцию `test`, которая возвращает `true`, если тестирование прошло успешно, и `false` в противном случае. Реализация **обязательно** должна включать в себя реализации таких функций, как
 ```pascal
-function ASSERT_EQ(var got, expected : ans_t) : boolean;
+function ASSERT_EQ(var got, expected: ans_t): boolean;
 ```
 
 ```pascal
-function ASSERT_TRUE(got : boolean) : boolean;
+function ASSERT_TRUE(got: boolean): boolean;
 ```
 
 ```pascal
-function ASSERT_FALSE(got : boolean) : boolean;
+function ASSERT_FALSE(got: boolean): boolean;
 ```
 В тестировании обязательно должны быть рассмотрены такие сюжеты, как
 * Сценарий `linear_infinity` для a = 0, b = 0, c = 0;
