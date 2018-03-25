@@ -1,18 +1,18 @@
-program qsort_binsearch;
+program bsort_binsearch;
 
 uses crt;
 
-const LEN = 30; BIG_LEN = 10000;
+const LEN = 30; BIG_LEN = 5000;
 type array_t = array[1..LEN] of integer;
      big_array_t = array[1..BIG_LEN] of integer;
 
-procedure QSort(var a: array_t; N: integer);
+procedure BSort(var a: array_t; N: integer);
 begin
 end;
 
-procedure QSort(var a: big_array_t; N: integer);
+procedure BSort(var a: big_array_t; N: integer);
 begin
-	// just copy your QSort code here
+	// just copy your BSort code here
 end;
 
 function BinSearch(var a: array_t; N, value: integer): integer;

@@ -1,0 +1,20 @@
+
+*** NEW LOG : empty ***
+*** END OF LOG : empty ***
+
+*** NEW LOG : single five ***
+[ BUCKET 6 ]: 5
+*** END OF LOG : single five ***
+
+*** NEW LOG : some additions ***
+[ BUCKET 1 ]: 10
+[ BUCKET 2 ]: 1
+[ BUCKET 3 ]: 2
+[ BUCKET 4 ]: 3
+[ BUCKET 5 ]: 4
+[ BUCKET 6 ]: 5
+[ BUCKET 7 ]: 6
+[ BUCKET 8 ]: 7
+[ BUCKET 9 ]: 8
+[ BUCKET 10 ]: 9
+*** END OF LOG : some additions ***
