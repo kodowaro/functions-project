@@ -15,12 +15,12 @@ begin
 	// just copy your BSort code here
 end;
 
-function BinSearch(var a: array_t; N, value: integer): integer;
+function BinSearch(var a: array_t; N, elem: integer): integer;
 begin
 	BinSearch := 0
 end;
 
-function BinSearch(var a: big_array_t; N, value: integer): integer;
+function BinSearch(var a: big_array_t; N, elem: integer): integer;
 begin
 	// just copy your BinSearch code here
 	BinSearch := 0
